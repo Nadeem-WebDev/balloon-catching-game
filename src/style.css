@@ -52,3 +52,9 @@ h1{
   display: flex;
   z-index: 1;
 }
+
+@media screen and (width<=600px) {
+  #gameCanvas{
+    width: 70%;
+  }
+}

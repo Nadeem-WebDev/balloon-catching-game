@@ -3,7 +3,7 @@ import Phaser from 'phaser';
 
 const config = {
     type: Phaser.WEBGL,
-    width: 900,
+    width: 1000,
     height: 550,
     canvas:gameCanvas,
     physics: {
