@@ -49,7 +49,7 @@ function createNewBalloon(scene, x, y) {
 
 function preload() {
     this.load.image('sky', '../graphics/Symbol 3 copy.png'); 
-    this.load.image('pump', '../public/graphics/Symbol 320001.png'); 
+    this.load.image('pump', '../graphics/Symbol 320001.png'); 
     this.load.image('pipe', './graphics/Symbol 320002.png'); 
     this.load.image('machine', './graphics/Symbol 320003.png'); 
     this.load.image('balloon', './graphics/Symbol 100001.png'); 
