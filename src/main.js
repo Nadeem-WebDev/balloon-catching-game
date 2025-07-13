@@ -52,7 +52,7 @@ function preload() {
     this.load.image('pump', '../graphics/Symbol 320001.png'); 
     this.load.image('pipe', './graphics/Symbol 320002.png'); 
     this.load.image('machine', './graphics/Symbol 320003.png'); 
-    this.load.image('balloon', `./graphics/Symbol 10000${Math.floor(Math.random()*9)}.png`); 
+    this.load.image('balloon', `./graphics/Symbol 10000${Math.ceil(Math.random()*9)}.png`); 
 }
 
 function create() {
